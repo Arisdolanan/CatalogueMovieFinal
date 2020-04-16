@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/title_home"
+        android:icon="@drawable/home"
+        app:showAsAction="ifRoom"
+         />
+
+    <item
+        android:id="@+id/nav_comingsoon"
+        android:title="@string/coming_soon"
+        android:icon="@drawable/comingsoon"
+        app:showAsAction="ifRoom"
+
+        />
+    <item
+        android:id="@+id/nav_favorit"
+        android:title="@string/favorite"
+        android:icon="@drawable/favorit"
+        app:showAsAction="ifRoom"
+
+        />
+
+</menu>
